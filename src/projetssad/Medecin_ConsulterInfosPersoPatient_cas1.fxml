@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetssad.Medecin_ConsulterInfosPersoPatient_cas1Controller">
+   <children>
+      <Pane layoutX="-6.0" layoutY="-5.0" prefHeight="130.0" prefWidth="756.0" style="-fx-background-color: #f7f7f7;">
+         <children>
+            <Label layoutX="264.0" layoutY="36.0" prefHeight="58.0" prefWidth="229.0" text="Liste des patients" textFill="#002c83">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <Button layoutX="685.0" layoutY="22.0" mnemonicParsing="false" onAction="#Authentification" prefHeight="43.0" prefWidth="44.0" style="-fx-background-color: #dfe3ee; -fx-background-radius: 50;" textFill="#3b5998">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0">
+                     <image>
+                        <Image url="@../images/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="685.0" layoutY="72.0" mnemonicParsing="false" onAction="#Retour" prefHeight="43.0" prefWidth="44.0" style="-fx-background-color: #dfe3ee; -fx-background-radius: 50;" textFill="#3b5998">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="23.0">
+                     <image>
+                        <Image url="@../images/retour.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="#190949" layoutX="43.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hopital :" wrappingWidth="59.199981689453125">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#190949" layoutX="43.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Service :" wrappingWidth="59.19998168945307">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <TextField fx:id="nom_hopital" alignment="CENTER" editable="false" layoutX="93.0" layoutY="49.0" prefHeight="31.0" prefWidth="143.0" promptText="Nom de l'hopital" style="-fx-background-color: transparent;" />
+            <TextField fx:id="nom_service" alignment="CENTER" editable="false" layoutX="93.0" layoutY="78.0" prefHeight="31.0" prefWidth="131.0" promptText="Nom du service" style="-fx-background-color: transparent;" />
+         </children>
+      </Pane>
+      <Pane layoutX="-6.0" layoutY="459.0" prefHeight="43.0" prefWidth="756.0" style="-fx-background-color: #dfe3ee;" />
+      <Pane layoutX="-6.0" layoutY="125.0" prefHeight="7.0" prefWidth="756.0" style="-fx-background-color: #dfe3ee;" />
+      <TableView fx:id="table_pat" editable="true" layoutX="10.0" layoutY="140.0" prefHeight="308.0" prefWidth="730.0">
+         <columns>
+            <TableColumn fx:id="nom" prefWidth="103.2000150680542" text="Nom" />
+            <TableColumn fx:id="prenom" prefWidth="116.7999267578125" text="Prénom" />
+            <TableColumn fx:id="tel1" prefWidth="130.40000915527344" text="Téléphone 1" />
+            <TableColumn fx:id="tel2" prefWidth="119.20001220703125" text="Téléphone 2" />
+            <TableColumn fx:id="nom_med" prefWidth="120.79998779296875" text="Nom du médecin" />
+            <TableColumn fx:id="prenom_med" prefWidth="143.20001220703125" text="Prénom du médecin" />
+            <TableColumn fx:id="id_patient" minWidth="0.7999267578125" prefWidth="0.7999267578125" text="id Patient" visible="false" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

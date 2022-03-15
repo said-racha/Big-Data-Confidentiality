@@ -1,0 +1,37 @@
+
+- Hopital 1 : Mustpha Pacha
+
+Service Cardiologie 1
+okba.amara@gmail.com        09/12/1964   okba1964
+dahmani.karima@gmail.com    16/01/1980   okba1964
+
+Service Immunologie 3
+malika.benhalima@gmail.com  08/12/1960    malika1960
+
+
+- Hopital 2 : CNMS
+
+Service Cardiologie 2
+nadir.mohamed@gmail.com    18/02/1952     moh1952
+
+Service Chirurgie Cardio-Vasculaire 4
+djoudi.nawel@gmail.com     16/02/1970     nawel1970
+
+
+- Hopital 3 : Khelil Amrane
+
+Service Cancérologie 7
+bouhacein.fares@gmail.com   17/12/1972    fares1972
+
+Service Neurochirurgie 8
+meriem.tazir@gmail.com      24/12/1964    meriem1964
+
+
+- Hopital 4 : Lakhdar Bouchama
+
+Service Pédiatrie 5
+yamoun.rachid@gmail.com         10/12/1960   rachid1960
+
+Service Orthopédie 6
+boudjemaa.abdelkader@gmail.com  31/12/1959   abd1959
+

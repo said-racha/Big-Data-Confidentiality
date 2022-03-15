@@ -1,0 +1,35 @@
+- Hopital 1 : Mustpha Pacha
+
+Service Cardiologie 1
+feriel.abdelbaki23@gmail.com  23/12/2000  feriel.abdelbaki   ssadferiel
+
+Service Immunologie 3
+racha.said25@gmail.com     09/11/2000   racha.said ssadracha
+
+
+- Hopital 2 : CNMS
+
+Service Cardiologie 2
+benabedmaissa23@gmail.com     22/12/2000  maissa.benabed ssadmaissa
+
+Service Chirurgie Cardio-Vasculaire 4
+yacef.yasmina@gmail.com       09/12/2000  yasmina.yacef ssadyasmina
+
+
+- Hopital 3 : Khelil Amrane
+
+Service Cancérologie 7
+kherroubi.kenza@gmail.com     10/12/2000  kherroubi.kenza ssadkenza
+
+Service Neurochirurgie 8
+boukersi.yasmine@gmail.com    17/12/2000  boukersi.yasmine ssadyasmine
+
+
+- Hopital 4 : Lakhdar Bouchama
+
+Service Pédiatrie 5
+amel.foudil@gmail.com         12/12/2001   amel.foudil   ssadamel
+
+Service Orthopédie 6
+asma.chemem@gmail.com         18/12/2000   asma.chemem   ssadasma
+
